@@ -19,7 +19,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd OmoqoTest
+  cd omoqo-project
 ```
 
 Run docker compose to start both applications
