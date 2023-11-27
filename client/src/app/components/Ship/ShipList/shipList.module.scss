@@ -1,0 +1,20 @@
+.deleteButton {
+  margin-right: 12px;
+}
+
+.filterContainer {
+  padding: 8px;
+
+  .filterInput {
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .filterButton {
+    width: 90px;
+  }
+}
+
+.tableRow{
+  cursor: pointer;
+}

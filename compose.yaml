@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  # omoqoclient:
+  #   build: /client
+  #   container_name: omoqo-client
+  #   ports:
+  #     - 4200:80
+  omoqoapi:
+    build: /api
+    container_name: omoqo-api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - 8080:8080

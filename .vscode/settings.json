@@ -1,0 +1,6 @@
+{
+    "editor.formatOnType": true,
+    "[csharp]": {
+        "editor.formatOnType": true
+    }
+}
